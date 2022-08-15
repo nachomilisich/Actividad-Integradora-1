@@ -1,0 +1,27 @@
+#Actividad Integradora resuelta por Ignacio Milisich y Bautista Bertossi
+
+Lista = []
+print ("¡Bienvenido!")
+print()
+
+for i in range(0,5):
+    Lista.append(float(input("Ingrese un número y presione enter por favor: ")))
+
+print ("Los números ingresados son: ", Lista)
+print()
+
+def suma(Lista):
+    suma_de_nums = 0
+    for i in range(len(Lista)):
+     suma_de_nums += Lista[i]
+    return suma_de_nums
+
+sumatotal = suma(Lista)
+print("La suma de los números es igual a: ", sumatotal)
+
+def promedio(Lista):
+    return suma(Lista)/len(Lista)
+prom = promedio(Lista)
+print("El promedio de los números ingresados es: ", prom)
+
+-
