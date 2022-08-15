@@ -36,3 +36,5 @@ print("El menor número que ha ingresado es: ", minimo(Lista))
 
 print()
 print("¡Gracias!")
+print("Presione la tecla Enter para finalizar el programa.")
+input()
