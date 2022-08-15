@@ -24,4 +24,15 @@ def promedio(Lista):
 prom = promedio(Lista)
 print("El promedio de los números ingresados es: ", prom)
 
--
+def maximo(Lista):
+    return max(Lista)
+
+print("El mayor número que ha ingresado es: ", maximo(Lista))
+
+def minimo(Lista):
+    return min(Lista)
+
+print("El menor número que ha ingresado es: ", minimo(Lista))
+
+print()
+print("¡Gracias!")
